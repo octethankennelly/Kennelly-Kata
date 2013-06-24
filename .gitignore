@@ -13,3 +13,23 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# Ignore user and development files
+.rspec
+.rvmrc
+.powrc
+.DS_Store
+*.swp
+.idea/
+
+# Ignore database configuration
+database.yml
+
+# Ignore SimpleCov reports
+coverage
+
+# Ignore mergetool backup files
+*.orig
+
+# Ignore IDEA files
+*.iml
